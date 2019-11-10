@@ -1,0 +1,22 @@
+﻿<Window x:Class="MouseMoverAndClicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MouseMoverAndClicker"
+        mc:Ignorable="d"
+        Title="Mouse Mover" Height="170" Width="280">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <CheckBox Grid.Row="0" Grid.Column="0" Content="Clicks" Click="AllowClickToggle" Margin="5" />
+        <CheckBox Grid.Row="0" Grid.Column="1" Content="Random Range" Click="RandomRangeToggle" Margin="5" />
+        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="ToggleStartButton" Content="Start" Margin="5" />
+    </Grid>
+</Window>

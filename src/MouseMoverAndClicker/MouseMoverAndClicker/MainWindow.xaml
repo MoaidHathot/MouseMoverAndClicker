@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MouseMoverAndClicker"
         mc:Ignorable="d"
-        Title="Mouse Mover" Height="170" Width="280">
+        Title="Moaid's Mouse Mover" Height="170" Width="280">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

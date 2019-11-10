@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("MouseMoverAndClicker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Moiad Hathot")]
 [assembly: AssemblyProduct("MouseMoverAndClicker")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
